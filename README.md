@@ -13,26 +13,26 @@ ref link: https://archive.ics.uci.edu/dataset/159/magic+gamma+telescope
 
 
 ## Process
-We are going to use supervised learning for this purpose.<br/>
+We are going to use supervised learning for this purpose.<br/><br/>
 Steps for performing the task:<br/>
 <b>1. Import the data:</b> <br/>
-Make use of pandas library to import the dataset to the file<br/>
+Make use of pandas library to import the dataset to the file<br/><br/>
 <b>2. Clean the data:</b><br/>
-Remove all the NULL value or unnecessary columns from the dataset to easy the process.<br/>
+Remove all the NULL value or unnecessary columns from the dataset to easy the process.<br/><br/>
 <b>3. Split the data into 3 parts as Training, validation and testing:</b><br/>
-Here we have taken 60% of data for training and the rest 20% each for Validation and Testing respectively.<br/>
+Here we have taken 60% of data for training and the rest 20% each for Validation and Testing respectively.<br/><br/>
 <b>4. Visualization of data:</b><br/>
-We have plotted histogram to check the our features are affecting the output that is gamma or hadron<br/>
+We have plotted histogram to check the our features are affecting the output that is gamma or hadron<br/><br/>
 <b>5. Create a model:</b><br/>
-We have build 5 different model for this problem that are:<br/>
+We have build 5 different model for this problem that are:<br/><br/>
 . K-Nearest Neighbour Algorithm<br/>
 . Naive Bayes Algorithm<br/>
 . Logistic Regression <br/>
 . Support Vector Machine(SVM) Algorithm<br/>
-. Neural Networks<br/>
+. Neural Networks<br/><br/>
 <b>6. Make Prediction and check accurarcy:</b><br/>
-Finally for each of the model we have to check the prediction and accurarcy rate.<br/>
+Finally for each of the model we have to check the prediction and accurarcy rate.<br/><br/>
 
-Results: Out of all the 5 models we built . SVM present the best prediction and accuracy score.<br/>
+Results: Out of all the 5 models we built . SVM present the best prediction and accuracy score.<br/><br/>
 
 Reference: Machine Learning for Everybody – Full Course, Kylie Ying, FreeCodeCamp.org, https://www.youtube.com/watch?v=i_LwzRVP7bg
